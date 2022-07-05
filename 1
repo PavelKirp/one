@@ -1,1 +1,21 @@
+package main
 
+import (
+	"fmt"
+)
+
+var a int
+
+func result(a int) {
+	b := a%2 == 0
+	fmt.Println(b)
+}
+
+func main() {
+
+	var a int
+	fmt.Println("Введите число:")
+	fmt.Scan(&a)
+	result(a)
+
+}
